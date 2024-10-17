@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <SkiaSharp.Views.Android.SKCanvasView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:ignorePixelScaling="true"
-    android:id="@+id/skiaView"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ignorePixelScaling="true"
+        android:id="@+id/skiaView"/>
 </FrameLayout>

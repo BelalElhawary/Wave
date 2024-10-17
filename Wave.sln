@@ -5,7 +5,13 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wave.Test.Android", "Wave.Test.Android\Wave.Test.Android.csproj", "{81199714-E09A-4596-B20A-E603CDB95217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wave.Test.IOS", "Wave.Test.IOS\Wave.Test.IOS.csproj", "{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wave.Test.IOS", "Wave.Test.IOS\Wave.Test.IOS.csproj", "{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A5115636-1C2D-4C0B-9BA4-2E3F09A8F0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wave.Test.Winforms", "Wave.Test.Winforms\Wave.Test.Winforms.csproj", "{915597C6-180D-466F-8A9A-2F6B1E09BDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wave.Core", "Wave.Core\Wave.Core.csproj", "{D638290B-EBFD-4CA7-A643-0C43D33BC336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,9 +31,22 @@ Global
 		{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{915597C6-180D-466F-8A9A-2F6B1E09BDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915597C6-180D-466F-8A9A-2F6B1E09BDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915597C6-180D-466F-8A9A-2F6B1E09BDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915597C6-180D-466F-8A9A-2F6B1E09BDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D638290B-EBFD-4CA7-A643-0C43D33BC336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D638290B-EBFD-4CA7-A643-0C43D33BC336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D638290B-EBFD-4CA7-A643-0C43D33BC336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D638290B-EBFD-4CA7-A643-0C43D33BC336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81199714-E09A-4596-B20A-E603CDB95217} = {A5115636-1C2D-4C0B-9BA4-2E3F09A8F0FF}
+		{F0E418E5-5B02-4FF8-B1E9-FCD4631880D2} = {A5115636-1C2D-4C0B-9BA4-2E3F09A8F0FF}
+		{915597C6-180D-466F-8A9A-2F6B1E09BDDB} = {A5115636-1C2D-4C0B-9BA4-2E3F09A8F0FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00CE7708-8613-4888-BE7E-363814771474}
